@@ -24,7 +24,6 @@ Examples:
     python crypto-tracker.py --csv bitcoin ethereum solana > prices.csv
 
 Support: https://github.com/yourusername/crypto-tracker
-BTC Tips: 1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9
 """
 
 import sys
@@ -42,7 +41,6 @@ COIN_SYMBOLS = {
     "uniswap": "UNI", "stellar": "XLM", "monero": "XMR",
 }
 
-BTC_TIP = "1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9"
 
 
 def fetch_prices(coin_ids):
@@ -101,7 +99,6 @@ def display_table(data, coin_ids):
             print(f"  {symbol:<12} {format_price(usd):>14} {change_str:>14} {arrow}  {mcap_str:>14}")
 
     print()
-    print(f"  💰 BTC Tips: {BTC_TIP}")
     print(f"  📦 Source: https://github.com/yourusername/crypto-tracker\n")
 
 
