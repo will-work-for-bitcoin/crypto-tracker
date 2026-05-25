@@ -1,5 +1,9 @@
 # crypto-tracker
 
+**Support this project:**
+- **BTC Tips:** `1KPUa9Njq86NJwmwqVmdjZ4oC8eHrXKqf9`
+
+
 Real-time cryptocurrency price tracker CLI with live updates, JSON/CSV export, and beautiful terminal output. Zero dependencies.
 
 ## Installation
